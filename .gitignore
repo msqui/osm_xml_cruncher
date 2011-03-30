@@ -1,0 +1,39 @@
+# use glob syntax
+syntax: glob
+
+# Build artifacts
+*.mo
+*.egg-info
+*.egg
+*.EGG
+*.EGG-INFO
+bin
+build
+develop-eggs
+downloads
+eggs
+fake-eggs
+parts
+dist
+.installed.cfg
+.mr.developer.cfg
+
+# Other VCSs
+.hg
+.bzr
+.svn
+
+# Compiled modules
+*.pyc
+*.class
+*.pyo
+
+# Tmp files
+*.tmp*
+*~
+*.bak
+*.cache
+.DS_Store
+
+# Log files
+*.log
